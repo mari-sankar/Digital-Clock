@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(https://images.hdqwalls.com/download/beach-sunset-5k-wk-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    height: 70px;
+    width: 100px;
+    background-color: rgb(243, 122, 78);
+    color: white;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: rgb(50, 165, 204);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    font-size: 20px;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    bottom: 0; 
+    background-color: rgb(60, 162, 196);
+}
